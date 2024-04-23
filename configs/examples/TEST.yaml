@@ -1,0 +1,64 @@
+testname: Listening Test BS.1116 - Low Instrumentals
+testId: low_instrumentals
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+remoteService: service/write.php
+
+
+pages:
+    - type: generic
+      id: first_page
+      name: Low Instrumentals Listening Test
+      content: Press "Next" to start the test
+    -
+      - random
+      - type: bs1116
+        id: low_instrumentals
+        name: Low Instrumentals Listening Test
+        content: 
+        showWaveform: false
+        enableLooping: true 
+        reference: configs/resources/audio/Driver 3 REF/3 Low Instrumentals.wav
+        createAnchor35: false
+        createAnchor70: false
+        stimuli:
+            C1: configs/resources/audio/Driver 1/1 Low Instrumentals.wav
+            C2: configs/resources/audio/Driver 2/2 Low Instrumentals.wav
+            C3: configs/resources/audio/Driver 4/4 Low Instrumentals.wav
+            C4: configs/resources/audio/Driver 5/5 Low Instrumentals.wav
+            C5: configs/resources/audio/Driver 6/6 Low Instrumentals.wav
+            C6: configs/resources/audio/Driver 7/7 Low Instrumentals.wav
+            C7: configs/resources/audio/Driver 8/8 Low Instrumentals.wav
+            C8: configs/resources/audio/Driver 9/9 Low Instrumentals.wav
+            C9: configs/resources/audio/Driver 10/10 Low Instrumentals.wav
+            C10: configs/resources/audio/Driver 11/11 Low Instrumentals.wav
+            C11: configs/resources/audio/Driver 12/12 Low Instrumentals.wav
+            C12: configs/resources/audio/Driver 13/13 Low Instrumentals.wav
+            C13: configs/resources/audio/Driver 14/14 Low Instrumentals.wav
+
+    - type: finish
+      name: Thank you
+      content: Thank you for attending!
+      showResults: true
+      writeResults: true
+      questionnaire:
+          - type: text
+            label: eMail
+            name: email
+          - type: number
+            label: Age
+            name: age
+            min: 0
+            max: 100
+            default: 30
+          - type: likert
+            name: gender
+            label: Gender
+            response:
+             - value: female
+               label: Female
+             - value: male
+               label: Male
+             - value: other
+               label: Other

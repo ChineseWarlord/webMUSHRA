@@ -1,0 +1,107 @@
+testname: Listening Test BS.1116 - Low/Mid/High Instrumentals + Vocals
+testId: low_mid_high_instrumentals_vocals
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+remoteService: service/write.php
+
+pages:
+    - type: generic
+      id: first_page
+      name: Low Instrumentals + Vocals Listening Test
+      content: <p>The first test will have you listen to instrumentals and vocals at low frequencies.<p/> <br>Press "Next" to start the test
+    -
+      - random
+      - type: bs1116
+        id: Low Instrumentals + Vocals
+        name: Low Instrumentals + Vocals Listening Test
+        content: Quick references:<br> <ul><li><kbd>0</kbd>,<kbd>R</kbd> Select and play/pause reference (A)</li><li><kbd>1</kbd> Select and play/pause condition B</li><li><kbd>2</kbd> Select and play/pause condition C</li><li><kbd>SPACE</kbd> Play/pause the selected condition</li><li><kbd>BACKSPACE</kbd> Stop the selected condition</li><li><kbd>A</kbd> Set begin of loop to current position</li><li><kbd>B</kbd> Set end of loop to current position</li><li><kbd>&uarr;</kbd> Increase rating by 0.01</li><li><kbd>Shift</kbd> + <kbd>&uarr;</kbd> Increase rating by 1</li><li><kbd>&darr;</kbd> Decrease rating by 0.01</li><li><kbd>Shift</kbd> + <kbd>&darr;</kbd> Decrease rating by 1</li></ul>
+        showWaveform: false
+        enableLooping: true 
+        reference: configs/resources/audio/Driver 3 REF/3 Low Vocals.wav
+        createAnchor35: false
+        createAnchor70: false
+        stimuli:
+            C1: configs/resources/audio/Driver 1/1 Low Vocals.wav
+            #C2: configs/resources/audio/Driver 2/2 Low Vocals.wav
+            #C3: configs/resources/audio/Driver 4/4 Low Vocals.wav
+            #C4: configs/resources/audio/Driver 5/5 Low Vocals.wav
+            #C5: configs/resources/audio/Driver 6/6 Low Vocals.wav
+            #C6: configs/resources/audio/Driver 7/7 Low Vocals.wav
+            #C7: configs/resources/audio/Driver 8/8 Low Vocals.wav
+            #C8: configs/resources/audio/Driver 9/9 Low Vocals.wav
+            #C9: configs/resources/audio/Driver 10/10 Low Vocals.wav
+            #C10: configs/resources/audio/Driver 11/11 Low Vocals.wav
+            #C11: configs/resources/audio/Driver 12/12 Low Vocals.wav
+            #C12: configs/resources/audio/Driver 13/13 Low Vocals.wav
+            #C13: configs/resources/audio/Driver 14/14 Low Vocals.wav
+      
+    - type: generic
+      id: second_page
+      name: Mid Instrumentals + Vocals Listening Test
+      content: <p>The second test will have you listen to instrumentals and vocals at mid frequencies.<p/> <br>Press "Next" to start the test
+    -
+      - random
+      - type: bs1116
+        id: Mid Instrumentals + Vocals
+        name: Mid Instrumentals + Vocals Listening Test
+        content: Quick references:<br> <ul><li><kbd>0</kbd>,<kbd>R</kbd> Select and play/pause reference (A)</li><li><kbd>1</kbd> Select and play/pause condition B</li><li><kbd>2</kbd> Select and play/pause condition C</li><li><kbd>SPACE</kbd> Play/pause the selected condition</li><li><kbd>BACKSPACE</kbd> Stop the selected condition</li><li><kbd>A</kbd> Set begin of loop to current position</li><li><kbd>B</kbd> Set end of loop to current position</li><li><kbd>&uarr;</kbd> Increase rating by 0.01</li><li><kbd>Shift</kbd> + <kbd>&uarr;</kbd> Increase rating by 1</li><li><kbd>&darr;</kbd> Decrease rating by 0.01</li><li><kbd>Shift</kbd> + <kbd>&darr;</kbd> Decrease rating by 1</li></ul>
+        showWaveform: false
+        enableLooping: true 
+        reference: configs/resources/audio/Driver 3 REF/3 Mid Vocals.wav
+        createAnchor35: false
+        createAnchor70: false
+        stimuli:
+            C1: configs/resources/audio/Driver 1/1 Mid Vocals.wav
+            #C2: configs/resources/audio/Driver 2/2 Mid Vocals.wav
+            #C3: configs/resources/audio/Driver 4/4 Mid Vocals.wav
+            #C4: configs/resources/audio/Driver 5/5 Mid Vocals.wav
+            #C5: configs/resources/audio/Driver 6/6 Mid Vocals.wav
+            #C6: configs/resources/audio/Driver 7/7 Mid Vocals.wav
+            #C7: configs/resources/audio/Driver 8/8 Mid Vocals.wav
+            #C8: configs/resources/audio/Driver 9/9 Mid Vocals.wav
+            #C9: configs/resources/audio/Driver 10/10 Mid Vocals.wav
+            #C10: configs/resources/audio/Driver 11/11 Mid Vocals.wav
+            #C11: configs/resources/audio/Driver 12/12 Mid Vocals.wav
+            #C12: configs/resources/audio/Driver 13/13 Mid Vocals.wav
+            #C13: configs/resources/audio/Driver 14/14 Mid Vocals.wav
+
+    - type: generic
+      id: third_page
+      name: High Instrumentals + Vocals Listening Test
+      content: <p>The second test will have you listen to instrumentals and vocals at high frequencies.<p/> <br>Press "Next" to start the test
+    -
+      - random
+      - type: bs1116
+        id: High Instrumentals + Vocals
+        name: High Instrumentals + Vocals Listening Test
+        content: Quick references:<br>2nd music track starts at 22.3<br> <ul><li><kbd>0</kbd>,<kbd>R</kbd> Select and play/pause reference (A)</li><li><kbd>1</kbd> Select and play/pause condition B</li><li><kbd>2</kbd> Select and play/pause condition C</li><li><kbd>SPACE</kbd> Play/pause the selected condition</li><li><kbd>BACKSPACE</kbd> Stop the selected condition</li><li><kbd>A</kbd> Set begin of loop to current position</li><li><kbd>B</kbd> Set end of loop to current position</li><li><kbd>&uarr;</kbd> Increase rating by 0.01</li><li><kbd>Shift</kbd> + <kbd>&uarr;</kbd> Increase rating by 1</li><li><kbd>&darr;</kbd> Decrease rating by 0.01</li><li><kbd>Shift</kbd> + <kbd>&darr;</kbd> Decrease rating by 1</li></ul>
+        showWaveform: false
+        enableLooping: true 
+        reference: configs/resources/audio/Driver 3 REF/3 High Vocals.wav
+        createAnchor35: false
+        createAnchor70: false
+        stimuli:
+            C1: configs/resources/audio/Driver 1/1 High Vocals.wav
+            #C2: configs/resources/audio/Driver 2/2 High Vocals.wav
+            #C3: configs/resources/audio/Driver 4/4 High Vocals.wav
+            #C4: configs/resources/audio/Driver 5/5 High Vocals.wav
+            #C5: configs/resources/audio/Driver 6/6 High Vocals.wav
+            #C6: configs/resources/audio/Driver 7/7 High Vocals.wav
+            #C7: configs/resources/audio/Driver 8/8 High Vocals.wav
+            #C8: configs/resources/audio/Driver 9/9 High Vocals.wav
+            #C9: configs/resources/audio/Driver 10/10 High Vocals.wav
+            #C10: configs/resources/audio/Driver 11/11 High Vocals.wav
+            #C11: configs/resources/audio/Driver 12/12 High Vocals.wav
+            #C12: configs/resources/audio/Driver 13/13 High Vocals.wav
+            #C13: configs/resources/audio/Driver 14/14 High Vocals.wav
+
+    - type: finish
+      name: Thank you
+      content: The test has concluded!
+      showResults: true
+      writeResults: true
+      questionnaire:
+          - type: text
+            label: "Name:"
+            name: Name
