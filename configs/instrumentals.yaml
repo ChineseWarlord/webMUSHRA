@@ -23,18 +23,18 @@ pages:
         createAnchor70: false
         stimuli:
             C1: configs/resources/audio/Driver 1/1 Low Instrumentals.wav
-            #C2: configs/resources/audio/Driver 2/2 Low Instrumentals.wav
-            #C3: configs/resources/audio/Driver 4/4 Low Instrumentals.wav
-            #C4: configs/resources/audio/Driver 5/5 Low Instrumentals.wav
-            #C5: configs/resources/audio/Driver 6/6 Low Instrumentals.wav
-            #C6: configs/resources/audio/Driver 7/7 Low Instrumentals.wav
-            #C7: configs/resources/audio/Driver 8/8 Low Instrumentals.wav
-            #C8: configs/resources/audio/Driver 9/9 Low Instrumentals.wav
-            #C9: configs/resources/audio/Driver 10/10 Low Instrumentals.wav
-            #C10: configs/resources/audio/Driver 11/11 Low Instrumentals.wav
-            #C11: configs/resources/audio/Driver 12/12 Low Instrumentals.wav
-            #C12: configs/resources/audio/Driver 13/13 Low Instrumentals.wav
-            #C13: configs/resources/audio/Driver 14/14 Low Instrumentals.wav
+            C2: configs/resources/audio/Driver 2/2 Low Instrumentals.wav
+            C3: configs/resources/audio/Driver 4/4 Low Instrumentals.wav
+            C4: configs/resources/audio/Driver 5/5 Low Instrumentals.wav
+            C5: configs/resources/audio/Driver 6/6 Low Instrumentals.wav
+            C6: configs/resources/audio/Driver 7/7 Low Instrumentals.wav
+            C7: configs/resources/audio/Driver 8/8 Low Instrumentals.wav
+            C8: configs/resources/audio/Driver 9/9 Low Instrumentals.wav
+            C9: configs/resources/audio/Driver 10/10 Low Instrumentals.wav
+            C10: configs/resources/audio/Driver 11/11 Low Instrumentals.wav
+            C11: configs/resources/audio/Driver 12/12 Low Instrumentals.wav
+            C12: configs/resources/audio/Driver 13/13 Low Instrumentals.wav
+            C13: configs/resources/audio/Driver 14/14 Low Instrumentals.wav
       
     - type: generic
       id: second_page
@@ -53,18 +53,18 @@ pages:
         createAnchor70: false
         stimuli:
             C1: configs/resources/audio/Driver 1/1 Mid Instrumentals.wav
-            #C2: configs/resources/audio/Driver 2/2 Mid Instrumentals.wav
-            #C3: configs/resources/audio/Driver 4/4 Mid Instrumentals.wav
-            #C4: configs/resources/audio/Driver 5/5 Mid Instrumentals.wav
-            #C5: configs/resources/audio/Driver 6/6 Mid Instrumentals.wav
-            #C6: configs/resources/audio/Driver 7/7 Mid Instrumentals.wav
-            #C7: configs/resources/audio/Driver 8/8 Mid Instrumentals.wav
-            #C8: configs/resources/audio/Driver 9/9 Mid Instrumentals.wav
-            #C9: configs/resources/audio/Driver 10/10 Mid Instrumentals.wav
-            #C10: configs/resources/audio/Driver 11/11 Mid Instrumentals.wav
-            #C11: configs/resources/audio/Driver 12/12 Mid Instrumentals.wav
-            #C12: configs/resources/audio/Driver 13/13 Mid Instrumentals.wav
-            #C13: configs/resources/audio/Driver 14/14 Mid Instrumentals.wav
+            C2: configs/resources/audio/Driver 2/2 Mid Instrumentals.wav
+            C3: configs/resources/audio/Driver 4/4 Mid Instrumentals.wav
+            C4: configs/resources/audio/Driver 5/5 Mid Instrumentals.wav
+            C5: configs/resources/audio/Driver 6/6 Mid Instrumentals.wav
+            C6: configs/resources/audio/Driver 7/7 Mid Instrumentals.wav
+            C7: configs/resources/audio/Driver 8/8 Mid Instrumentals.wav
+            C8: configs/resources/audio/Driver 9/9 Mid Instrumentals.wav
+            C9: configs/resources/audio/Driver 10/10 Mid Instrumentals.wav
+            C10: configs/resources/audio/Driver 11/11 Mid Instrumentals.wav
+            C11: configs/resources/audio/Driver 12/12 Mid Instrumentals.wav
+            C12: configs/resources/audio/Driver 13/13 Mid Instrumentals.wav
+            C13: configs/resources/audio/Driver 14/14 Mid Instrumentals.wav
 
     - type: generic
       id: third_page
@@ -83,18 +83,18 @@ pages:
         createAnchor70: false
         stimuli:
             C1: configs/resources/audio/Driver 1/1 High Instrumentals.wav
-            #C2: configs/resources/audio/Driver 2/2 High Instrumentals.wav
-            #C3: configs/resources/audio/Driver 4/4 High Instrumentals.wav
-            #C4: configs/resources/audio/Driver 5/5 High Instrumentals.wav
-            #C5: configs/resources/audio/Driver 6/6 High Instrumentals.wav
-            #C6: configs/resources/audio/Driver 7/7 High Instrumentals.wav
-            #C7: configs/resources/audio/Driver 8/8 High Instrumentals.wav
-            #C8: configs/resources/audio/Driver 9/9 High Instrumentals.wav
-            #C9: configs/resources/audio/Driver 10/10 High Instrumentals.wav
-            #C10: configs/resources/audio/Driver 11/11 High Instrumentals.wav
-            #C11: configs/resources/audio/Driver 12/12 High Instrumentals.wav
-            #C12: configs/resources/audio/Driver 13/13 High Instrumentals.wav
-            #C13: configs/resources/audio/Driver 14/14 High Instrumentals.wav
+            C2: configs/resources/audio/Driver 2/2 High Instrumentals.wav
+            C3: configs/resources/audio/Driver 4/4 High Instrumentals.wav
+            C4: configs/resources/audio/Driver 5/5 High Instrumentals.wav
+            C5: configs/resources/audio/Driver 6/6 High Instrumentals.wav
+            C6: configs/resources/audio/Driver 7/7 High Instrumentals.wav
+            C7: configs/resources/audio/Driver 8/8 High Instrumentals.wav
+            C8: configs/resources/audio/Driver 9/9 High Instrumentals.wav
+            C9: configs/resources/audio/Driver 10/10 High Instrumentals.wav
+            C10: configs/resources/audio/Driver 11/11 High Instrumentals.wav
+            C11: configs/resources/audio/Driver 12/12 High Instrumentals.wav
+            C12: configs/resources/audio/Driver 13/13 High Instrumentals.wav
+            C13: configs/resources/audio/Driver 14/14 High Instrumentals.wav
 
     - type: finish
       name: Thank you
